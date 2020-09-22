@@ -1,0 +1,64 @@
+body {
+	margin:0;
+	padding:0;
+	color: white;
+}
+
+#conteneur {
+	width: 100%;
+	height: 100vh;
+	display: inline-flex;
+	margin:0;
+}
+
+h1 {
+	color: black;
+}
+/* --- I M A G E S ------------------ */
+#rognage-jason {
+	background-image: url("../images/Jason-Statam.png");
+	background-size: 400%;
+	background-repeat: no-repeat;
+	background-position: 70% 20%;
+
+    width: 23%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#rognage-tilda {
+	background-image: url("../images/Tilda-Swinton.jpg");
+	background-size: 400%;
+	background-repeat: no-repeat;
+	background-position: 50% 30%;
+	transform: scaleX(-1);
+    width: 23%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#rognage-will {
+	background-image: url("../images/Will-Smith.jpg");
+	background-size: 400%;
+	background-repeat: no-repeat;
+	background-position: 70% 10%;
+    width: 23%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#rognage-tom {
+	background-image: url("../images/Tom-Hanks.jpg");
+	background-size: 170%;
+	background-repeat: no-repeat;
+	background-position: 72% 30%;
+    width: 23%;
+    height: 100vh;
+    overflow: hidden;
+}
+/* --- fin images ------------------ */
+#add-yours {
+	width: 8%;
+	height: 100vh;
+	background-color: red;
+}
