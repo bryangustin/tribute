@@ -1,0 +1,97 @@
+body{
+    background-color: aquamarine;
+}
+h1{
+    font-size:3em;
+}
+/* Galery style*/
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+/* subsribtion form */
+@import url(https://fonts.googleapis.com/css?family=Ceviche+One);
+@import url(https://fonts.googleapis.com/css?family=Ubuntu+Condensed);
+
+
+.subArea, .emailInput > input{
+  margin: 0 auto;
+}
+
+.subArea{
+  background: #232224;
+  width: 450px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+.subTitle{
+  color: white;
+  font-family: 'Ceviche One', cursive;
+  font-size: 55px;
+  height: 100px;
+  line-height: 140px;
+  text-align: center;
+  text-shadow: 0 2px 5px #FFF;
+}
+
+.subInfo, .emailInput > input, .subButton button{
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+.subInfo{
+  color: #5c5c5c;
+  height: 90px;
+  line-height: 90px;
+  text-align: center;
+}
+
+.emailInput{
+  height: 60px;
+  margin-top: 20px;
+}
+
+.emailInput > input{
+  width: 60%;
+  height: 37px;
+  text-align: center;
+  display: inherit;
+  border: none;
+  border-radius: 3px;
+  outline: none;
+}
+
+.subButton button{
+  width: 61%;
+  height: 37px;
+  margin: 10px auto;
+  display: inherit;
+  background: #A77D53;
+  border: none;
+  border-radius: 3px;
+  font-size: 16px;
+  color: white;
+  outline: none;
+}
+
+.subButton button:hover{
+  cursor: pointer;
+}
