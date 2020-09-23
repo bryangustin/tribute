@@ -3,6 +3,7 @@ body {
 	padding:0;
 	color: white;
 	font-family: 'Catamaran', sans-serif;
+	background: linear-gradient(#F51B00 400px, darkred);
 }
 
 #conteneur {
@@ -28,9 +29,8 @@ h1 {
 }
 #rognage-jason:hover{
 	filter: grayscale(0);
-	width: 30%;
-	transition: 0.3s;
-	height: 100vh;
+	transform: scaleX(-1);
+	transition: 0.5s;
 }
 
 #rognage-tilda {
@@ -43,12 +43,12 @@ h1 {
     height: 100vh;
     overflow: hidden;
     filter: grayscale(1);
+
 }
 #rognage-tilda:hover{
 	filter: grayscale(0);
-	width: 30%;
-	transition: 0.3s;
-	height: 100vh;
+	transform: scaleX(1);
+	transition: 0.5s;
 }
 
 #rognage-will {
@@ -63,9 +63,8 @@ h1 {
 }
 #rognage-will:hover{
 	filter: grayscale(0);
-	width: 30%;
-	transition: 0.3s;
-	height: 100vh;
+	transform: scaleX(-1);
+	transition: 0.5s;
 }
 
 #rognage-tom {
@@ -77,18 +76,20 @@ h1 {
     height: 100vh;
     overflow: hidden;
     filter: grayscale(1);
+    text-transform: uppercase;
 }
 #rognage-tom:hover{
-	filter: grayscale(0);
-	width: 30%;
-	transition: 0.3s;
-	height: 100vh;	
+	filter: grayscale(0);	
+	transform: scaleX(-1);
+	transition: 0.5s;
+	
 }
 /* --- fin images ------------------ */
 #add-yours {
 	width: 8%;
 	height: 100vh;
-	background-color: red;
+	background: linear-gradient(#F51B00 400px, darkred);
+	background-color: ;
 }
 .plus{
 	padding-top: 50px;
@@ -97,6 +98,22 @@ h1 {
 	text-orientation: mixed;
 	text-transform: uppercase;
 	font-size: 50px;
-	letter-spacing: 10px;
+	letter-spacing: 40px;
 	text-shadow: 0px 3px 10px grey;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
