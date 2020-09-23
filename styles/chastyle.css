@@ -71,7 +71,7 @@ a:hover{
 /* - - - - - - - - - - E N T E T E - - - - - - - - - - */
 
 .paralax{
-    background-image: url("../images/Tilda_Swinton/Tilda_2.jpg");
+    background-image: url("../images/Tilda/Tilda_2.jpg");
     background-position: 70%;
     background-size: cover;
     margin-top: 20px;
@@ -148,19 +148,20 @@ a:hover{
     margin-right: 210px;
 }
 
+
 /* - - - - - - - - - - B L O C 1 - - - - - - - - - - */
 
 #Bloc_1{
     display: inline-flex;
     padding-top: 100px;
-    padding-bottom: 100px;
+    padding-bottom: 40px;
 }
 
 #Tilda{
-    background-image: url("../images/Tilda_Swinton/Tilda_5_OLLA.jpg");
-    background-size: 300%;
+    background-image: url("../images/Tilda/Tilda_5_OLLA.jpg");
+    background-size: 400%;
     background-position: 450px 0px ;
-    padding: 150px;
+    width: 300px;
     box-shadow: 0px 3px 10px grey;
     margin: 20px;
 }
@@ -168,6 +169,7 @@ a:hover{
 #Things{
     color: grey;
     background-color: white;
+    width: 400px;
     padding:20px;
     margin: 20px;
 }
@@ -181,19 +183,48 @@ a:hover{
     margin: 20px;
 }
 
+
 /* - - - - - - - - - - B L O C 2 - - - - - - - - - - */
+
 #Bloc_2{
-    margin-top: -65px;
+    margin: -65px 20px 0px 20px;
     padding:20px;
     color: grey;
     background-color: white;
 }
 
 h3{
-    margin: 30px auto 50px;
+    margin: 0px auto 50px 30px;
+    padding-left: 50px;
     font-family: 'Dancing Script', cursive;
     font-style: italic;
     font-size: 35px;
+}
 
+/* - - - - - - - - - - B L O C 3 - - - - - - - - - - */
+#Bloc_3{
+    width: 690px;
+    height: 490px;
+    margin: 110px 20px 30px 20px;
+    padding:20px;
+    color: grey;
+    background-color: white;
+}
+
+#Slide{
+    display: inline-flex;
+    width: 650px;
+    height: 400px;
+    margin: 0px 0px 20px 20px;
+    background-color: black;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+.miniatures {
+    width: 50px;
 }
 
