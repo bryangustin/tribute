@@ -34,13 +34,8 @@ h1 {
 }
 
 #rognage-tilda {
-<<<<<<< HEAD
-	background-image: url("../images/Tilda_Swinton/Tilda-Swinton.jpg");
-	background-size: 400%;
-=======
 	background-image: url("../images/Tilda/Tilda_1.jpg");
 	background-size:cover 400%;
->>>>>>> fea0b3728b8c80682f151e5e0a8ecac50149341f
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	transform: scaleX(-1);
