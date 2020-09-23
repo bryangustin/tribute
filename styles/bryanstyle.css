@@ -1,6 +1,7 @@
 body{
 	font-family: 'Catamaran', sans-serif;
-	background-color: lightgrey;
+	background-image: url("../images/concrete-1646788_1920.jpg");
+	color: grey;
 }
 nav{
 	margin-top: -20px;
@@ -10,51 +11,55 @@ nav{
 	box-shadow: 0px 3px 10px grey;
 }
 .home{
+	letter-spacing: 3px;
 	margin-block-start: 1em;
-	margin-left: 10px;
+	margin-left: 30px;
 	float: left;
 	text-transform: uppercase;
 }
-ul{
+.ulnav{
 	display: flex;
 	justify-content: flex-end;
 }
-li{
+.linav{
 	display: inline-block;
 	padding: 0 20px;
 }
 #infos{
 	width: 50px;
 }
-.nav{
+a{
+	text-transform: uppercase;
 	text-decoration: none;
-	color: lightgrey;
+	color:grey;
+	letter-spacing: 3px;
 }
 a:hover{
-	color: grey;
+	color: red;
 }
 
-.orange{
-  color: #FF7C00;
+.red{
+  color: #F51B00;
 }
 .paralax{
 	top:30px;
-	background-image: url("../images/tom hanks/VCGIBUPVA5U53P3AS7JY4XPS2Y.jpg");
+	background-image: url("../images/Tom/VCGIBUPVA5U53P3AS7JY4XPS2Y.jpg");
 	background-size: cover;
 	margin-top: 20px;
   	background-attachment: fixed;
-  	padding: 150px;
+  	padding: 250px;
   	box-shadow: 0px 3px 10px grey;
 }
 h1{
 	text-transform: uppercase;
 	color: white;
 	text-align: center;
-	font-size: 100px;
-	letter-spacing: 15px;
-	text-shadow: grey 1px 0 5px;
+	font-size: 80px;
+	letter-spacing: 18px;
+	
 }
 h2{
+	text-transform: uppercase;
 	width: 600px;
 	margin: auto;
 	padding-bottom: 30px;
@@ -70,9 +75,9 @@ p{
 	padding-bottom: 30px;
 	width: 650px;
 	height: 300px;
-	color: grey;
 	background-color: white;
 	overflow: scroll;
+	box-shadow: 0px 3px 10px grey;
 }
 .alinea { 
   text-indent: 20px; 
@@ -83,5 +88,64 @@ p{
 }
 /* up copie le code */
 
+.bigbox{
+	margin-top: 200px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 700px;
+	margin-bottom: 80px;
+}
 
+.things{
+	background-color: white;
+	display: inline-block;
+	margin: 0 76px 0 0;
+	width: 250px;
+	padding: 30px;
+	box-shadow: 0px 3px 10px grey;
+
+
+}
+.othings{
+	background-color: white;
+	display: inline-block;
+	width: 250px;
+	padding: 30px;
+	box-shadow: 0px 3px 10px grey;
+}
+
+.how{
+	background-color: white;
+	padding: 30px;
+	width: 650px;
+	margin: auto;
+	box-shadow: 0px 3px 10px grey;
+}
+
+.lien{
+	width: 650px;
+	padding: 30px;
+	margin: auto;
+}
+.Lul{
+	list-style: none;
+	display: inline-block;
+}
+.Lli{
+	padding: 30px 48px;
+	display: inline-block;
+}
+.iframed{
+	margin: auto;
+	width: 700px;
+	padding-bottom: 30px;
+}
+
+.icon{
+	font-size: 50px;
+	color: grey;
+}
+.icon:hover{
+	color: #F51B00;
+}
 

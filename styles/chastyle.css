@@ -1,46 +1,113 @@
+<<<<<<< HEAD
 body{
     font-family: 'Catamaran', sans-serif;
 }
 
 /* --- N A V I G U A T I O N ------------------ */
+=======
+/* - - - - - - - - - - G E N E R A L - - - - - - - - - - */
+
+body{
+    font-family: 'Catamaran', sans-serif;
+    background-color: lightgrey;
+}
+
+hr{
+    clear:both;
+    visibility: hidden;
+    display: block;
+}
+
+article{
+    padding:30px 100px 30px 100px;
+}
+
+h2{
+    margin: auto;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+
+
+/* - - - - - - - - - - N A V I G A T I O N - - - - - - - - - - */
+
+>>>>>>> fea0b3728b8c80682f151e5e0a8ecac50149341f
 nav{
     margin-top: -20px;
     width: 100%;
     position: fixed;
     background-color: white;
+<<<<<<< HEAD
 }
 
 .home{
+=======
+    box-shadow: 0px 3px 10px grey;
+} 
+
+.home {
+>>>>>>> fea0b3728b8c80682f151e5e0a8ecac50149341f
     margin-block-start: 1em;
     margin-left: 10px;
     float: left;
     text-transform: uppercase;
 }
 
+<<<<<<< HEAD
 ul{
+=======
+nav ul{
+>>>>>>> fea0b3728b8c80682f151e5e0a8ecac50149341f
     display: flex;
     justify-content: flex-end;
 }
 
+<<<<<<< HEAD
 li{
     display: inline-block;
     padding: 0 20px;
     text-decoration: none;
+=======
+nav li{
+    display: inline-block;
+    padding: 0 20px;
+>>>>>>> fea0b3728b8c80682f151e5e0a8ecac50149341f
 }
 
 #infos{
     width: 50px;
 }
 
+<<<<<<< HEAD
+=======
+.nav{
+    text-decoration: none;
+    color: lightgrey;
+}
+
+a:hover{
+    color: grey;
+}
+
+>>>>>>> fea0b3728b8c80682f151e5e0a8ecac50149341f
 .orange{
   color: #FF7C00;
 }
 
 
+<<<<<<< HEAD
 /* --- E N T E T E ------------------ */
 .paralax{
     background-position: 70% 30%;
     background-image: url("../images/Tilda_Swinton/Tilda_1.jpg");
+=======
+/* - - - - - - - - - - E N T E T E - - - - - - - - - - */
+
+.paralax{
+    background-image: url("../images/Tilda_Swinton/Tilda_2.jpg");
+    background-position: 70%;
+>>>>>>> fea0b3728b8c80682f151e5e0a8ecac50149341f
     background-size: cover;
     margin-top: 20px;
     background-attachment: fixed;
@@ -48,11 +115,16 @@ li{
     box-shadow: 0px 3px 10px grey;
 }
 
+<<<<<<< HEAD
 h1{
+=======
+.paralax h1{
+>>>>>>> fea0b3728b8c80682f151e5e0a8ecac50149341f
     text-transform: uppercase;
     color: white;
     text-align: center;
     font-size: 100px;
+<<<<<<< HEAD
     text-shadow: 2px;
 }
 
@@ -61,3 +133,117 @@ p{
     margin: auto;
     
 }
+=======
+    letter-spacing: 15px;
+    text-shadow: grey 1px 0 5px;
+}
+
+/* - - - - - - - - - - B I O G R A P H I E - - - - - - - - - - */
+.scroll {
+    margin: -120px auto 50px;
+    padding: 30px 30px 30px;
+    width: 650px;
+    height: 300px;
+    color: grey;
+    background-color: white;
+    overflow: scroll;
+}
+
+
+.scroll h2{
+    width: 600px;
+    margin: auto;
+    padding-bottom: 30px;
+    letter-spacing: 5px;
+}
+
+.scroll p {
+    width: 600px;
+    margin: auto;
+    text-align: justify;
+}
+
+
+.alinea { 
+  text-indent: 20px; 
+}
+
+.bold{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+
+/* - - - - - - - - - - C I T A T I O N - - - - - - - - - - */
+
+#Replique {
+
+}
+
+#Replique quote {    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-size: 60px;
+}
+
+#Replique p {
+    font-style: italic;
+    font-size: 16px;
+    float: right;
+    margin-right: 210px;
+}
+
+/* - - - - - - - - - - B L O C 1 - - - - - - - - - - */
+
+#Bloc_1{
+    display: inline-flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#Tilda{
+    background-image: url("../images/Tilda_Swinton/Tilda_5_OLLA.jpg");
+    background-size: 300%;
+    background-position: 450px 0px ;
+    padding: 150px;
+    box-shadow: 0px 3px 10px grey;
+    margin: 20px;
+}
+
+#Things{
+    color: grey;
+    background-color: white;
+    padding:20px;
+    margin: 20px;
+}
+
+
+#Inspire{
+    width: 40%;
+    color: grey;
+    background-color: white;
+    padding:20px;
+    margin: 20px;
+}
+
+/* - - - - - - - - - - B L O C 2 - - - - - - - - - - */
+#Bloc_2{
+    margin-top: -65px;
+    padding:20px;
+    color: grey;
+    background-color: white;
+}
+
+h3{
+    margin: 30px auto 50px;
+    font-family: 'Dancing Script', cursive;
+    font-style: italic;
+    font-size: 35px;
+
+}
+
+>>>>>>> fea0b3728b8c80682f151e5e0a8ecac50149341f
