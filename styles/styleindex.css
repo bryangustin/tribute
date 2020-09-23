@@ -2,6 +2,7 @@ body {
 	margin:0;
 	padding:0;
 	color: white;
+	font-family: 'Catamaran', sans-serif;
 }
 
 #conteneur {
@@ -16,49 +17,86 @@ h1 {
 }
 /* --- I M A G E S ------------------ */
 #rognage-jason {
-	background-image: url("../images/Jason-Statam.png");
-	background-size: 400%;
+	background-image: url("../images/jason/Jason-Statam.png");
+	background-size:cover 400%;
 	background-repeat: no-repeat;
 	background-position: 70% 20%;
-
+	filter: grayscale(1);
     width: 23%;
     height: 100vh;
     overflow: hidden;
 }
+#rognage-jason:hover{
+	filter: grayscale(0);
+	width: 30%;
+	transition: 0.3s;
+	height: 100vh;
+}
 
 #rognage-tilda {
-	background-image: url("../images/Tilda-Swinton.jpg");
-	background-size: 400%;
+	background-image: url("../images/Tilda/Tilda_1.jpg");
+	background-size:cover 400%;
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	transform: scaleX(-1);
     width: 23%;
     height: 100vh;
     overflow: hidden;
+    filter: grayscale(1);
+}
+#rognage-tilda:hover{
+	filter: grayscale(0);
+	width: 30%;
+	transition: 0.3s;
+	height: 100vh;
 }
 
 #rognage-will {
-	background-image: url("../images/Will-Smith.jpg");
-	background-size: 400%;
+	background-image: url("../images/will/Will-Smith.jpg");
+	background-size:cover 400%;
 	background-repeat: no-repeat;
 	background-position: 70% 10%;
     width: 23%;
     height: 100vh;
     overflow: hidden;
+    filter: grayscale(1);
+}
+#rognage-will:hover{
+	filter: grayscale(0);
+	width: 30%;
+	transition: 0.3s;
+	height: 100vh;
 }
 
 #rognage-tom {
-	background-image: url("../images/Tom-Hanks.jpg");
-	background-size: 170%;
+	background-image: url("../images/Tom/Tom-Hanks.jpg");
+	background-size:cover 170%;
 	background-repeat: no-repeat;
 	background-position: 72% 30%;
     width: 23%;
     height: 100vh;
     overflow: hidden;
+    filter: grayscale(1);
+}
+#rognage-tom:hover{
+	filter: grayscale(0);
+	width: 30%;
+	transition: 0.3s;
+	height: 100vh;	
 }
 /* --- fin images ------------------ */
 #add-yours {
 	width: 8%;
 	height: 100vh;
 	background-color: red;
+}
+.plus{
+	padding-top: 50px;
+	margin:auto;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	text-transform: uppercase;
+	font-size: 50px;
+	letter-spacing: 10px;
+	text-shadow: 0px 3px 10px grey;
 }
