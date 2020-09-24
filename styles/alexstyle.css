@@ -9,6 +9,7 @@ div.gallery {
   
   div.gallery:hover {
     border: 1px solid #777;
+    transform:scale(2);
   }
   
   div.gallery img {
@@ -88,12 +89,15 @@ div.gallery {
 }
 
 .subButton button:hover{
-  cursor: pointer;
+  background-color: #45a049;
 }
 /*style bryan */
 body{
+  background-image: url('../images/jason/sand.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 	font-family: 'Catamaran', sans-serif;
-	background-color: rgb(226, 212, 172);
 }
 
 nav{
@@ -131,10 +135,10 @@ li.inspiration{
 }
 .nav{
 	text-decoration: none;
-	color: lightgrey;
+	color: rgb(27, 25, 139);
 }
 a:hover{
-	color: grey;
+	color: rgb(160, 57, 57);
 }
 
 .orange{
@@ -142,7 +146,7 @@ a:hover{
 }
 .paralax{
 	top:30px;
-	background-image: url("../images/jason-statham-galery/jsparalax.jpg");
+	background-image: url("../images/jason/jasons.jpg");
 	background-size:cover;
 	margin-top: 20px;
   	background-attachment: fixed;
@@ -160,13 +164,13 @@ h1{
 
 .scroll{
 
-	margin: -120px auto 60px;
+	margin:-120px auto 60px;
 	padding: 30px;
 	padding-bottom: 30px;
-	width: 650px;
+	width: 850px;
 	height: 300px;
 	color: grey;
-	background-color: white;
+	background-color: rgb(170, 204, 206);
 	overflow: scroll;
 }
 .alinea { 
@@ -178,10 +182,12 @@ h1{
 }
 /*card */
 .card {
+  background-color: rgb(221, 217, 217);
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 48%;
   height: 200px;
+  
 }
 
 
@@ -193,11 +199,12 @@ h1{
   padding: 18px 16px;
 }
 #card1{
-  background-color;
+  
   float: right;
 }
 #card3{
   width:100%;
+  height:300px;
 }
 #card4{
   width:45%;
@@ -207,8 +214,62 @@ h1{
   font-family: 'Kalam', cursive;
   color: #232224;
 }
+.inspiration{
+  font-family: 'Kalam', cursive;
+  color: #232224;
+}
 h3{
   font-family: 'Judson', serif;
   color: rgb(18, 42, 66);
+}
+/*contact form*/
+ /* Style inputs with type="text", select elements and textareas */
+ input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #A77D53;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+#contactFormClass {
+  width:50%;
+  margin:auto;
+  padding: 20px;
+  background: #232224;
+  width: 410px;
+  height: 550px;
+  border-radius: 10px;
+} 
+#contact{
+  color: white;
+  font-family: 'Ceviche One', cursive;
+  font-size: 55px;
+  height: 100px;
+  line-height: 50px;
+  text-align: center;
+  text-shadow: 0 2px 5px #FFF;
+}
+.contactEntry{
+  color: white;
 }
 
