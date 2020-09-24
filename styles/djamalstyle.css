@@ -1,14 +1,125 @@
-img {
-  border-radius: 8px;
+body{
+	font-family: 'Catamaran', sans-serif;
+	background-color: lightgrey;
+	color: grey;
 }
-#name{
-	font-size:3em;
+nav{
+	margin-top: -20px;
+	width: 100%;
+	position: fixed;
+	background-color: white;
+	box-shadow: 0px 3px 10px grey;
+}
+.home{
+	letter-spacing: 3px;
+	margin-block-start: 1em;
+	margin-left: 30px;
+	float: left;
+	text-transform: uppercase;
+}
+.ulnav{
+	display: flex;
+	justify-content: flex-end;
+}
+.linav{
+	display: inline-block;
+	padding: 0 20px;
+}
+#infos{
+	width: 50px;
+}
+a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color:grey;
+	letter-spacing: 3px;
+}
+a:hover{
+	color: red;
 }
 
- body {
-  background-color: lightblue;
+.red{
+  color: #F51B00;
 }
-#photo{
-	font-size:3em;
+.paralax{
+	top:30px;
+	background-image: url("../images/will/ws1.jpg");
+	background-size: cover;
+	margin-top: 20px;
+  	background-attachment: fixed;
+  	padding: 250px;
+  	box-shadow: 0px 3px 10px grey;
 }
+h1{
+	text-transform: uppercase;
+	color: white;
+	text-align: center;
+	font-size: 80px;
+	letter-spacing: 18px;
+	
+}
+h2{
+	text-transform: uppercase;
+	width: 600px;
+	margin: auto;
+	padding-bottom: 30px;
+	letter-spacing: 5px;
+}
+p{
+	width: 600px;
+	margin: auto;
+}
+.scroll{
+	margin: -120px auto;
+	padding: 30px;
+	padding-bottom: 30px;
+	width: 650px;
+	height: 300px;
+	background-color: white;
+	overflow: scroll;
+	box-shadow: 0px 3px 10px grey;
+}
+.alinea { 
+  text-indent: 20px; 
+}
+.bold{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.lien{
+	width: 650px;
+	padding: 30px;
+	margin: auto;
+}
+.Lul{
+	list-style: none;
+	display: inline-block;
+}
+.Lli{
+	padding: 30px 48px;
+	display: inline-block;
+}
+.icon{
+	font-size: 50px;
+	color: grey;
+}
+.icon:hover{
+	color: #F51B00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
