@@ -174,9 +174,9 @@
 <!----- B L O C 3 ----->
 	<div id="Bloc_3">
 
-	<div id="conteneur">
+	<div class="conteneur">
 		<h2>Faces gallery</h2>
-		<div id="Slide">
+		<div class="Slide">
 			<img src="images/Tilda/Tilda_7_SnowPiercer.jpg">
 			<img src="images/Tilda/Tilda_3_Constentine.jpg">
 			<img src="images/Tilda/Tilda_8_Narnia.jpg">
@@ -191,32 +191,32 @@
 
 		<div id="Snowpiercer" class="miniatures">
 			
-			<a href=""><p>SnowPiercer</p></a>
+			<a href=".Slide"><p>SnowPiercer</p></a>
 		</div>
 
 		<div id="Constentine" class="miniatures">
 			
-			<a href=""><p>Constentine</p></a>
+			<a href="#Constentine1"><p>Constentine</p></a>
 		</div>
 
 		<div id="Narnia" class="miniatures">
 			
-			<a href="#Narnia"><p>Narnia</p></a>
+			<a href="#Narnia1"><p>Narnia</p></a>
 		</div>
 
 		<div id="Susperia" class="miniatures">
 			
-			<a href="#Susperia"><p>Susperia</p></a>
+			<a href="#Susperia1"><p>Susperia</p></a>
 		</div>
 
 		<div id="TheGBH" class="miniatures">
 			
-			<a href="TheGBH"><p>The Grand Budapest Hotel</p></a>
+			<a href="#TheGBH1"><p>The Grand Budapest Hotel</p></a>
 		</div>
 
 		<div id="DrStrange" class="miniatures">
 			
-			<a href="DrStrange"><p>Dr Strange</p></a>
+			<a href="#DrStrange1"><p>Dr Strange</p></a>
 		</div>
 
 	</div>
@@ -227,9 +227,10 @@
 
 <!----- B L O C 4 ----->
 
+<div id="Bloc_4b"> 
 
 	<div id="Bloc_4">
-	<h4>We love Tilda Swinton</h4>
+		<h4>We love Tilda Swinton</h4>
             <ul>
                 <li>
                     <a class="icon" href="https://www.facebook.com/tildaswintonorg" target="_blank"><i class="fab fa-facebook-square"></i></a>
@@ -243,6 +244,36 @@
                 </li>
             </ul>
 	</div>
+
+	<!-- Formulaire de contact-->
+	<div id="After"></div>
+
+	<div class="boite">
+		<form id="formcon">
+
+  			<h2>Leave a message to Tilda</h2>
+
+    		<label for="name">
+    			<input id="Name" class="write" name="name" type="text" value="Name" size="20" />
+    		</label><br/>
+
+    		<label class="required" for="email">
+    			<input id="email" class="input" name="email" type="text" value="Email@email.com" size="20" />
+    		</label><br />
+
+    		<label class="required" for="message">
+    			<textarea id="message" class="input" name="message" rows="4" maxlength="150" cols="30">Hey, Tilda! This my message to you</textarea>
+			</label><br />
+
+		</form> 
+
+		<input id="submit_button" type="submit" value="Send email" />
+
+	</div>
+
+</div>
+
+	
 
 <!----- fin bloc4 ----->
 </article>

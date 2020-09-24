@@ -31,6 +31,7 @@ nav{
     position: fixed;
     background-color: white;
     box-shadow: 0px 3px 10px grey;
+    z-index: 2;
 } 
 
 .home {
@@ -215,7 +216,7 @@ h3{
 
 }
 
-#conteneur{
+.conteneur{
     width: 690px;
     height: 490px;
     margin: 0px 20px 0px 20px;
@@ -225,7 +226,7 @@ h3{
     box-shadow: grey 1px 0 5px;
 }
 
-#Slide{
+.Slide{
     display: inline-flex;
     width: 650px;
     height: 400px;
@@ -277,20 +278,28 @@ img {
 
 /* - - - - - - - - - - M I N I A T U R E S - - - - - - - - - - */
 
-#Snowpiercer
-    {
+#Snowpiercer{
         background-image: url("../images/Tilda/Tilda_7_SnowPiercer.jpg");
         background-size: 300%;
         background-position: 73%;
         overflow: hidden;
+        z-index: 1;
     }
-#Constentine
-    {
+
+#Snowpiercer:target ~ .Slide{
+transform:translatex(0)
+}
+
+#Constentine{
         background-image: url("../images/Tilda/Tilda_3_Constentine.jpg");
         background-size: 800%;
         background-position: 42% 23%;
         overflow: hidden;
     }
+
+#Constentine:target ~ .Slide{
+transform:translatex(25%)
+}
 #Narnia
     {
         background-image: url("../images/Tilda/Tilda_8_Narnia.jpg");
@@ -321,6 +330,12 @@ img {
     }
 
 /* - - - - - - - - - - B L O C 4 - - - - - - - - - - */
+#Bloc_4b{ 
+    display:inline-flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
 #Bloc_4 { 
     text-align: center;
     width: 100%;
@@ -358,4 +373,89 @@ h4{
     font-style: italic;
     font-size: 35px;
     text-align: center;
+}
+
+/* - - - - - - - - - - W R I T E  T O - - - - - - - - - - */
+
+.boite{ 
+    text-align: center;
+    width: 100%;
+    margin-top: 120px;   
+    color: grey;
+    background-color: white;
+    box-shadow: grey 1px 0 5px;
+    padding: 20px;
+}
+
+input[type="text"] {
+    background-color: grey;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    margin:6px;
+    transition-duration: 0.3s ease-in-out
+}
+
+input[type="text"]:hover{
+    opacity: 80%;
+    color: silver;
+    transition-duration: 0.3s ease-in-out
+}
+
+input[type="text"]:focus{
+    opacity: 100%;
+    color: white;
+    border: 1px solid #FF7C00;
+    transition-duration: 0.3s ease-in-out
+}
+
+textarea {
+    background-color: grey;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    margin:6px;
+    transition-duration: 0.3s ease-in-out
+}
+
+textarea:hover {
+    opacity: 80%;
+    color: silver;
+    transition-duration: 0.3s ease-in-out
+}
+
+textarea:focus {
+    opacity: 100%;
+    color: white;
+    border: 1px solid #FF7C00;
+    transition-duration: 0.3s ease-in-out
+}
+
+input[type="submit"] {
+    background-color: #FF7C00;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    margin:15px;
+    padding: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+input[type="submit"]:hover {
+    background-color: #FF7C00;
+    opacity: 80%;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    margin:15px;
+    padding: 12px;
+}
+
+input[type="submit"]:focus {
+    background-color: grey;
+    color:white;
+    border:none;
+    border-radius: 3px;
+    margin:15px;
+    padding: 12px;
 }
