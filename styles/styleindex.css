@@ -31,7 +31,7 @@ body {
 #rognage-jason:hover{
 	filter: grayscale(0);
 	transform: scaleX(-1);
-	transition: 0.1s;
+	
 }
 
 #rognage-tilda {
@@ -49,7 +49,7 @@ body {
 #rognage-tilda:hover{
 	filter: grayscale(0);
 	transform: scaleX(1);
-	transition: 0.1s;
+
 }
 
 #rognage-will {
@@ -65,7 +65,7 @@ body {
 #rognage-will:hover{
 	filter: grayscale(0);
 	transform: scaleX(-1);
-	transition: 0.1s;
+	
 }
 
 #rognage-tom {
@@ -82,7 +82,7 @@ body {
 #rognage-tom:hover{
 	filter: grayscale(0);	
 	transform: scaleX(-1);
-	transition: 0.1s;
+	
 	
 }
 /* --- fin images ------------------ */
