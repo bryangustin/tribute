@@ -58,7 +58,7 @@ h1{
 	letter-spacing: 18px;
 	
 }
-h2{
+#bio{
 	text-transform: uppercase;
 	width: 600px;
 	margin: auto;
@@ -107,7 +107,66 @@ p{
 	color: #F51B00;
 }
 
+.bloc1{
+	width: 300px;
+	background-color: white;
+	display: inline-block;
+	margin: 50px 55px;
+	margin-top: 200px;
+	padding: 30px;
+	box-shadow: 0px 5px 30px grey;
+}
+.bloc2{
+	width: 300px;
+	background-color: white;
+	display: inline-block;
+	margin: 50px 55px;
+	padding: 30px;
+	box-shadow: 0px 5px 30px grey;
+}
+.bloc3{
+	width: 300px;
+	background-color: white;
+	display: inline-block;
+	margin: 50px 55px;
+	padding: 30px;
+	box-shadow: 0px 5px 30px grey;
+}
+.gallery{
+	width: 1300px;
+	margin: auto;
+}
+.photography{
+	width: 400px;
+	height: 250px;
+	display: inline-block;
+	padding: 10px;
 
+}
+.un{
+	background-image: url("../images/will/ws2.jpg");
+	background-size: cover;
+}
+.deux{
+	background-image: url("../images/will/ws3.jpg");
+	background-size: cover;
+}
+.trois{
+	background-image: url("../images/will/ws4.jpg");
+	background-size: cover;
+}
+.quatre{
+	background-image: url("../images/will/Will-Smith.jpg");
+	background-size: cover;
+}
+.cinq{
+	background-image: url("../images/will/ws5.jpg");
+	background-size: cover;
+}
+.six{
+	background-image: url("../images/will/ws1.jpg");
+	background-size: cover;
+}
 
 
 
