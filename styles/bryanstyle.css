@@ -1,14 +1,14 @@
 body{
 	font-family: 'Catamaran', sans-serif;
 	background-image: url("../images/concrete-1646788_1920.jpg");
-	color: grey;
+	color: #808080;
 }
 nav{
 	margin-top: -20px;
 	width: 100%;
 	position: fixed;
-	background-color: white;
-	box-shadow: 0px 3px 10px grey;
+	background-color: #FFFFFF;
+	box-shadow: 0px 3px 10px #808080;
 }
 .home{
 	letter-spacing: 3px;
@@ -31,11 +31,11 @@ nav{
 a{
 	text-transform: uppercase;
 	text-decoration: none;
-	color:grey;
+	color:#808080;
 	letter-spacing: 3px;
 }
 a:hover{
-	color: red;
+	color: #F51B00;
 }
 
 .red{
@@ -48,11 +48,11 @@ a:hover{
 	margin-top: 20px;
   	background-attachment: fixed;
   	padding: 250px;
-  	box-shadow: 0px 3px 10px grey;
+  	box-shadow: 0px 3px 10px #808080;
 }
 h1{
 	text-transform: uppercase;
-	color: white;
+	color: #FFFFFF;
 	text-align: center;
 	font-size: 80px;
 	letter-spacing: 18px;
@@ -75,9 +75,9 @@ p{
 	padding-bottom: 30px;
 	width: 650px;
 	height: 300px;
-	background-color: white;
+	background-color: #FFFFFF;
 	overflow: scroll;
-	box-shadow: 0px 3px 10px grey;
+	box-shadow: 0px 3px 10px #808080;
 }
 .alinea { 
   text-indent: 20px; 
@@ -97,29 +97,29 @@ p{
 }
 
 .things{
-	background-color: white;
+	background-color: #FFFFFF;
 	display: inline-block;
 	margin: 0 76px 0 0;
 	width: 250px;
 	padding: 30px;
-	box-shadow: 0px 3px 10px grey;
+	box-shadow: 0px 3px 10px #808080;
 
 
 }
 .othings{
-	background-color: white;
+	background-color: #FFFFFF;
 	display: inline-block;
 	width: 250px;
 	padding: 30px;
-	box-shadow: 0px 3px 10px grey;
+	box-shadow: 0px 3px 10px #808080;
 }
 
 .how{
-	background-color: white;
+	background-color: #FFFFFF;
 	padding: 30px;
 	width: 650px;
 	margin: auto;
-	box-shadow: 0px 3px 10px grey;
+	box-shadow: 0px 3px 10px #808080;
 }
 
 .lien{
@@ -143,7 +143,7 @@ p{
 
 .icon{
 	font-size: 50px;
-	color: grey;
+	color: #808080;
 }
 .icon:hover{
 	color: #F51B00;
