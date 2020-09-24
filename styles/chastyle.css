@@ -226,15 +226,39 @@ h3{
     box-shadow: grey 1px 0 5px;
 }
 
-.Slide{
+.CSSgal {
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.slider{
+    position: relative;
     display: inline-flex;
+    flex-wrap: nowrap;
+    overflow: hidden;
+    margin: 0px 20px 20px 20px;
+    background-color: black;
+}
+
+.CSSgal .slider {
     width: 650px;
     height: 400px;
-    margin: 0px 0px 20px 20px;
-    background-color: black;
-    overflow: hidden;
-    transition: transform .6s ease-in-out;
+    transition: 0.8s;
 }
+
+.CSSgal .slider > * {
+    display: inline-block;
+    flex-wrap: nowrap;
+    transition: 0.8s;
+}
+
+#s1:target ~ .slider {transform: translateX(   0%); -webkit-transform: translateX(   0%);}
+#s2:target ~ .slider {transform: translateX(-100%); -webkit-transform: translateX(-100%);}
+#s3:target ~ .slider {transform: translateX(-200%); -webkit-transform: translateX(-200%);}
+#s4:target ~ .slider {transform: translateX(-300%); -webkit-transform: translateX(-300%);}
+#s5:target ~ .slider {transform: translateX(-400%); -webkit-transform: translateX(-400%);}
+#s6:target ~ .slider {transform: translateX(-500%); -webkit-transform: translateX(-300%);}
 
 img {
     width: 100%;
@@ -286,9 +310,6 @@ img {
         z-index: 1;
     }
 
-#Snowpiercer:target ~ .Slide{
-transform:translatex(0)
-}
 
 #Constentine{
         background-image: url("../images/Tilda/Tilda_3_Constentine.jpg");
@@ -297,9 +318,6 @@ transform:translatex(0)
         overflow: hidden;
     }
 
-#Constentine:target ~ .Slide{
-transform:translatex(25%)
-}
 #Narnia
     {
         background-image: url("../images/Tilda/Tilda_8_Narnia.jpg");
