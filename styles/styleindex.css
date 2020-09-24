@@ -2,63 +2,120 @@ body {
 	margin:0;
 	padding:0;
 	color: white;
+	font-family: 'Catamaran', sans-serif;
+	background: linear-gradient(#F51B00 400px, darkred);
+	width: 100%;
+	height: 100vh;
+	overflow: hidden;
 }
+
+
+/* --- I M A G E S ------------------ */
 
 #conteneur {
 	width: 100%;
-	height: 100vh;
 	display: inline-flex;
 	margin:0;
 }
 
-h1 {
-	color: black;
-}
-/* --- I M A G E S ------------------ */
 #rognage-jason {
-	background-image: url("../images/Jason-Statam.png");
-	background-size: 400%;
+	background-image: url("../images/jason/Jason-Statam.png");
+	background-size:cover 400%;
 	background-repeat: no-repeat;
 	background-position: 70% 20%;
-
+	filter: grayscale(1);
     width: 23%;
     height: 100vh;
     overflow: hidden;
 }
+#rognage-jason:hover{
+	filter: grayscale(0);
+	transform: scaleX(-1);
+	
+}
 
 #rognage-tilda {
-	background-image: url("../images/Tilda-Swinton.jpg");
-	background-size: 400%;
+	background-image: url("../images/Tilda/Tilda_1.jpg");
+	background-size:cover 400%;
 	background-repeat: no-repeat;
 	background-position: 50% 30%;
 	transform: scaleX(-1);
     width: 23%;
     height: 100vh;
     overflow: hidden;
+    filter: grayscale(1);
+
+}
+#rognage-tilda:hover{
+	filter: grayscale(0);
+	transform: scaleX(1);
+
 }
 
 #rognage-will {
-	background-image: url("../images/Will-Smith.jpg");
-	background-size: 400%;
+	background-image: url("../images/will/Will-Smith.jpg");
+	background-size:cover 400%;
 	background-repeat: no-repeat;
 	background-position: 70% 10%;
     width: 23%;
     height: 100vh;
     overflow: hidden;
+    filter: grayscale(1);
+}
+#rognage-will:hover{
+	filter: grayscale(0);
+	transform: scaleX(-1);
+	
 }
 
 #rognage-tom {
-	background-image: url("../images/Tom-Hanks.jpg");
-	background-size: 170%;
+	background-image: url("../images/Tom/Tom-Hanks.jpg");
+	background-size:cover 170%;
 	background-repeat: no-repeat;
 	background-position: 72% 30%;
     width: 23%;
     height: 100vh;
     overflow: hidden;
+    filter: grayscale(1);
+    text-transform: uppercase;
+}
+#rognage-tom:hover{
+	filter: grayscale(0);	
+	transform: scaleX(-1);
+	
+	
 }
 /* --- fin images ------------------ */
-#add-yours {
+
+#Titre {
 	width: 8%;
 	height: 100vh;
-	background-color: red;
+	background: linear-gradient(#F51B00 400px, darkred);
+	background-color: ;
 }
+.titre{
+	padding-top: 50px;
+	margin:auto auto 0px auto;
+	writing-mode: vertical-rl;
+	text-orientation: mixed;
+	text-transform: uppercase;
+	font-size: 30px;
+	letter-spacing: 30px;
+	text-shadow: 0px 3px 10px grey;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
