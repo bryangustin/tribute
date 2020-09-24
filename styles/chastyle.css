@@ -224,7 +224,12 @@ img {
     width: 100%;
 }
 
+#Nav_Bloc3 {
+    display: inline-flex;
+    
+}
 .miniatures {
     width: 50px;
+    border: 2px solid red;
 }
 
